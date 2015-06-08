@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		CE2FF1E51B22F6E700A57BDC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2FF1E41B22F6E700A57BDC /* GLKit.framework */; };
+		CE2FF1EE1B231AE100A57BDC /* kGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2FF1ED1B231AE100A57BDC /* kGLKViewController.m */; };
+		CE462A081B24834B006E5155 /* src in Resources */ = {isa = PBXBuildFile; fileRef = CE462A071B24834B006E5155 /* src */; };
+		CEA4B6E41B22A42600B0BC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B6E31B22A42600B0BC30 /* main.m */; };
+		CEA4B6E71B22A42600B0BC30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B6E61B22A42600B0BC30 /* AppDelegate.m */; };
+		CEA4B6EF1B22A42600B0BC30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4B6EE1B22A42600B0BC30 /* Images.xcassets */; };
+		CEA4B6F21B22A42600B0BC30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA4B6F01B22A42600B0BC30 /* LaunchScreen.xib */; };
+		CEA4B6FE1B22A42600B0BC30 /* kGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B6FD1B22A42600B0BC30 /* kGameTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		CEA4B6F81B22A42600B0BC30 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = CEA4B6D61B22A42600B0BC30 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = CEA4B6DD1B22A42600B0BC30;
+			remoteInfo = kGame;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		CE2FF1E41B22F6E700A57BDC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		CE2FF1EC1B23196700A57BDC /* kGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kGLKViewController.h; sourceTree = "<group>"; };
+		CE2FF1ED1B231AE100A57BDC /* kGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kGLKViewController.m; sourceTree = "<group>"; };
+		CE462A071B24834B006E5155 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../src; sourceTree = "<group>"; };
+		CEA4B6DE1B22A42600B0BC30 /* kGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA4B6E21B22A42600B0BC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA4B6E31B22A42600B0BC30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		CEA4B6E51B22A42600B0BC30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		CEA4B6E61B22A42600B0BC30 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		CEA4B6EE1B22A42600B0BC30 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		CEA4B6F11B22A42600B0BC30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		CEA4B6F71B22A42600B0BC30 /* kGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CEA4B6FC1B22A42600B0BC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		CEA4B6FD1B22A42600B0BC30 /* kGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kGameTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		CEA4B6DB1B22A42600B0BC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE2FF1E51B22F6E700A57BDC /* GLKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA4B6F41B22A42600B0BC30 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		CEA4B6D51B22A42600B0BC30 = {
+			isa = PBXGroup;
+			children = (
+				CE462A071B24834B006E5155 /* src */,
+				CE2FF1E41B22F6E700A57BDC /* GLKit.framework */,
+				CEA4B6E01B22A42600B0BC30 /* kGame */,
+				CEA4B6FA1B22A42600B0BC30 /* kGameTests */,
+				CEA4B6DF1B22A42600B0BC30 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		CEA4B6DF1B22A42600B0BC30 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B6DE1B22A42600B0BC30 /* kGame.app */,
+				CEA4B6F71B22A42600B0BC30 /* kGameTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		CEA4B6E01B22A42600B0BC30 /* kGame */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B6E51B22A42600B0BC30 /* AppDelegate.h */,
+				CEA4B6E61B22A42600B0BC30 /* AppDelegate.m */,
+				CEA4B6EE1B22A42600B0BC30 /* Images.xcassets */,
+				CEA4B6F01B22A42600B0BC30 /* LaunchScreen.xib */,
+				CEA4B6E11B22A42600B0BC30 /* Supporting Files */,
+				CE2FF1EC1B23196700A57BDC /* kGLKViewController.h */,
+				CE2FF1ED1B231AE100A57BDC /* kGLKViewController.m */,
+			);
+			path = kGame;
+			sourceTree = "<group>";
+		};
+		CEA4B6E11B22A42600B0BC30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B6E21B22A42600B0BC30 /* Info.plist */,
+				CEA4B6E31B22A42600B0BC30 /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEA4B6FA1B22A42600B0BC30 /* kGameTests */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B6FD1B22A42600B0BC30 /* kGameTests.m */,
+				CEA4B6FB1B22A42600B0BC30 /* Supporting Files */,
+			);
+			path = kGameTests;
+			sourceTree = "<group>";
+		};
+		CEA4B6FB1B22A42600B0BC30 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				CEA4B6FC1B22A42600B0BC30 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		CEA4B6DD1B22A42600B0BC30 /* kGame */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA4B7011B22A42600B0BC30 /* Build configuration list for PBXNativeTarget "kGame" */;
+			buildPhases = (
+				CEA4B6DA1B22A42600B0BC30 /* Sources */,
+				CEA4B6DB1B22A42600B0BC30 /* Frameworks */,
+				CEA4B6DC1B22A42600B0BC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = kGame;
+			productName = kGame;
+			productReference = CEA4B6DE1B22A42600B0BC30 /* kGame.app */;
+			productType = "com.apple.product-type.application";
+		};
+		CEA4B6F61B22A42600B0BC30 /* kGameTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = CEA4B7041B22A42600B0BC30 /* Build configuration list for PBXNativeTarget "kGameTests" */;
+			buildPhases = (
+				CEA4B6F31B22A42600B0BC30 /* Sources */,
+				CEA4B6F41B22A42600B0BC30 /* Frameworks */,
+				CEA4B6F51B22A42600B0BC30 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				CEA4B6F91B22A42600B0BC30 /* PBXTargetDependency */,
+			);
+			name = kGameTests;
+			productName = kGameTests;
+			productReference = CEA4B6F71B22A42600B0BC30 /* kGameTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		CEA4B6D61B22A42600B0BC30 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0630;
+				ORGANIZATIONNAME = qiaokeli;
+				TargetAttributes = {
+					CEA4B6DD1B22A42600B0BC30 = {
+						CreatedOnToolsVersion = 6.3.2;
+					};
+					CEA4B6F61B22A42600B0BC30 = {
+						CreatedOnToolsVersion = 6.3.2;
+						TestTargetID = CEA4B6DD1B22A42600B0BC30;
+					};
+				};
+			};
+			buildConfigurationList = CEA4B6D91B22A42600B0BC30 /* Build configuration list for PBXProject "kGame" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = CEA4B6D51B22A42600B0BC30;
+			productRefGroup = CEA4B6DF1B22A42600B0BC30 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				CEA4B6DD1B22A42600B0BC30 /* kGame */,
+				CEA4B6F61B22A42600B0BC30 /* kGameTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		CEA4B6DC1B22A42600B0BC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CE462A081B24834B006E5155 /* src in Resources */,
+				CEA4B6F21B22A42600B0BC30 /* LaunchScreen.xib in Resources */,
+				CEA4B6EF1B22A42600B0BC30 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA4B6F51B22A42600B0BC30 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		CEA4B6DA1B22A42600B0BC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4B6E71B22A42600B0BC30 /* AppDelegate.m in Sources */,
+				CEA4B6E41B22A42600B0BC30 /* main.m in Sources */,
+				CE2FF1EE1B231AE100A57BDC /* kGLKViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CEA4B6F31B22A42600B0BC30 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CEA4B6FE1B22A42600B0BC30 /* kGameTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		CEA4B6F91B22A42600B0BC30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = CEA4B6DD1B22A42600B0BC30 /* kGame */;
+			targetProxy = CEA4B6F81B22A42600B0BC30 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		CEA4B6F01B22A42600B0BC30 /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				CEA4B6F11B22A42600B0BC30 /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		CEA4B6FF1B22A42600B0BC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		CEA4B7001B22A42600B0BC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CEA4B7021B22A42600B0BC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = kGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../src/";
+			};
+			name = Debug;
+		};
+		CEA4B7031B22A42600B0BC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_OBJC_ARC = NO;
+				INFOPLIST_FILE = kGame/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				USER_HEADER_SEARCH_PATHS = "$(SRCROOT)/../src/";
+			};
+			name = Release;
+		};
+		CEA4B7051B22A42600B0BC30 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kGame.app/kGame";
+			};
+			name = Debug;
+		};
+		CEA4B7061B22A42600B0BC30 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = kGameTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/kGame.app/kGame";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		CEA4B6D91B22A42600B0BC30 /* Build configuration list for PBXProject "kGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA4B6FF1B22A42600B0BC30 /* Debug */,
+				CEA4B7001B22A42600B0BC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA4B7011B22A42600B0BC30 /* Build configuration list for PBXNativeTarget "kGame" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA4B7021B22A42600B0BC30 /* Debug */,
+				CEA4B7031B22A42600B0BC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		CEA4B7041B22A42600B0BC30 /* Build configuration list for PBXNativeTarget "kGameTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CEA4B7051B22A42600B0BC30 /* Debug */,
+				CEA4B7061B22A42600B0BC30 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = CEA4B6D61B22A42600B0BC30 /* Project object */;
+}
