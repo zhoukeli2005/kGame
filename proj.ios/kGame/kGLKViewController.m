@@ -12,14 +12,12 @@
 
 - (void)glkView:(GLKView *)view drawInRect:(CGRect)rect
 {
-	NSLog(@"glkView:drawInRect:");
 	glClearColor(1.0f, 1.0f, 1.0f, 1.0f);
 	glClear(GL_COLOR_BUFFER_BIT);
 }
 
 - (void)update
 {
-	NSLog(@"glkView:update");
 	[self.view setNeedsDisplay];
 }
 

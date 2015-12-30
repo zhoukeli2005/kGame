@@ -9,12 +9,15 @@
 /* Begin PBXBuildFile section */
 		CE2FF1E51B22F6E700A57BDC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE2FF1E41B22F6E700A57BDC /* GLKit.framework */; };
 		CE2FF1EE1B231AE100A57BDC /* kGLKViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = CE2FF1ED1B231AE100A57BDC /* kGLKViewController.m */; };
-		CE462A081B24834B006E5155 /* src in Resources */ = {isa = PBXBuildFile; fileRef = CE462A071B24834B006E5155 /* src */; };
 		CEA4B6E41B22A42600B0BC30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B6E31B22A42600B0BC30 /* main.m */; };
 		CEA4B6E71B22A42600B0BC30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B6E61B22A42600B0BC30 /* AppDelegate.m */; };
 		CEA4B6EF1B22A42600B0BC30 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = CEA4B6EE1B22A42600B0BC30 /* Images.xcassets */; };
 		CEA4B6F21B22A42600B0BC30 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = CEA4B6F01B22A42600B0BC30 /* LaunchScreen.xib */; };
 		CEA4B6FE1B22A42600B0BC30 /* kGameTests.m in Sources */ = {isa = PBXBuildFile; fileRef = CEA4B6FD1B22A42600B0BC30 /* kGameTests.m */; };
+		CEF112071B527CC7004CDA9B /* kobject.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF111FD1B527CC7004CDA9B /* kobject.c */; };
+		CEF112081B527CC7004CDA9B /* kmem.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF112051B527CC7004CDA9B /* kmem.c */; };
+		CEF1120B1B528149004CDA9B /* kstring.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF1120A1B528149004CDA9B /* kstring.c */; };
+		CEF1120D1B5288F4004CDA9B /* kfile.c in Sources */ = {isa = PBXBuildFile; fileRef = CEF1120C1B5288F4004CDA9B /* kfile.c */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,7 +34,6 @@
 		CE2FF1E41B22F6E700A57BDC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
 		CE2FF1EC1B23196700A57BDC /* kGLKViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kGLKViewController.h; sourceTree = "<group>"; };
 		CE2FF1ED1B231AE100A57BDC /* kGLKViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = kGLKViewController.m; sourceTree = "<group>"; };
-		CE462A071B24834B006E5155 /* src */ = {isa = PBXFileReference; lastKnownFileType = folder; name = src; path = ../src; sourceTree = "<group>"; };
 		CEA4B6DE1B22A42600B0BC30 /* kGame.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = kGame.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA4B6E21B22A42600B0BC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA4B6E31B22A42600B0BC30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -42,6 +44,18 @@
 		CEA4B6F71B22A42600B0BC30 /* kGameTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = kGameTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		CEA4B6FC1B22A42600B0BC30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		CEA4B6FD1B22A42600B0BC30 /* kGameTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = kGameTests.m; sourceTree = "<group>"; };
+		CEF111FD1B527CC7004CDA9B /* kobject.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kobject.c; sourceTree = "<group>"; };
+		CEF111FE1B527CC7004CDA9B /* kobject.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kobject.h; sourceTree = "<group>"; };
+		CEF111FF1B527CC7004CDA9B /* kstring.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kstring.h; sourceTree = "<group>"; };
+		CEF112011B527CC7004CDA9B /* kfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kfile.h; sourceTree = "<group>"; };
+		CEF112021B527CC7004CDA9B /* kegl.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kegl.h; sourceTree = "<group>"; };
+		CEF112031B527CC7004CDA9B /* kgame.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kgame.h; sourceTree = "<group>"; };
+		CEF112041B527CC7004CDA9B /* klog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = klog.h; sourceTree = "<group>"; };
+		CEF112051B527CC7004CDA9B /* kmem.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kmem.c; sourceTree = "<group>"; };
+		CEF112061B527CC7004CDA9B /* kmem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kmem.h; sourceTree = "<group>"; };
+		CEF112091B527E1B004CDA9B /* kcommon.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = kcommon.h; sourceTree = "<group>"; };
+		CEF1120A1B528149004CDA9B /* kstring.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kstring.c; sourceTree = "<group>"; };
+		CEF1120C1B5288F4004CDA9B /* kfile.c */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.c; path = kfile.c; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,7 +80,7 @@
 		CEA4B6D51B22A42600B0BC30 = {
 			isa = PBXGroup;
 			children = (
-				CE462A071B24834B006E5155 /* src */,
+				CEF111FB1B527CC7004CDA9B /* src */,
 				CE2FF1E41B22F6E700A57BDC /* GLKit.framework */,
 				CEA4B6E01B22A42600B0BC30 /* kGame */,
 				CEA4B6FA1B22A42600B0BC30 /* kGameTests */,
@@ -121,6 +135,42 @@
 				CEA4B6FC1B22A42600B0BC30 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		CEF111FB1B527CC7004CDA9B /* src */ = {
+			isa = PBXGroup;
+			children = (
+				CEF111FC1B527CC7004CDA9B /* base */,
+				CEF112001B527CC7004CDA9B /* io */,
+				CEF112021B527CC7004CDA9B /* kegl.h */,
+				CEF112031B527CC7004CDA9B /* kgame.h */,
+				CEF112041B527CC7004CDA9B /* klog.h */,
+				CEF112051B527CC7004CDA9B /* kmem.c */,
+				CEF112061B527CC7004CDA9B /* kmem.h */,
+			);
+			name = src;
+			path = ../src;
+			sourceTree = "<group>";
+		};
+		CEF111FC1B527CC7004CDA9B /* base */ = {
+			isa = PBXGroup;
+			children = (
+				CEF111FD1B527CC7004CDA9B /* kobject.c */,
+				CEF111FE1B527CC7004CDA9B /* kobject.h */,
+				CEF111FF1B527CC7004CDA9B /* kstring.h */,
+				CEF112091B527E1B004CDA9B /* kcommon.h */,
+				CEF1120A1B528149004CDA9B /* kstring.c */,
+			);
+			path = base;
+			sourceTree = "<group>";
+		};
+		CEF112001B527CC7004CDA9B /* io */ = {
+			isa = PBXGroup;
+			children = (
+				CEF112011B527CC7004CDA9B /* kfile.h */,
+				CEF1120C1B5288F4004CDA9B /* kfile.c */,
+			);
+			path = io;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -203,7 +253,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				CE462A081B24834B006E5155 /* src in Resources */,
 				CEA4B6F21B22A42600B0BC30 /* LaunchScreen.xib in Resources */,
 				CEA4B6EF1B22A42600B0BC30 /* Images.xcassets in Resources */,
 			);
@@ -223,9 +272,13 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				CEF1120B1B528149004CDA9B /* kstring.c in Sources */,
+				CEF112081B527CC7004CDA9B /* kmem.c in Sources */,
+				CEF112071B527CC7004CDA9B /* kobject.c in Sources */,
 				CEA4B6E71B22A42600B0BC30 /* AppDelegate.m in Sources */,
 				CEA4B6E41B22A42600B0BC30 /* main.m in Sources */,
 				CE2FF1EE1B231AE100A57BDC /* kGLKViewController.m in Sources */,
+				CEF1120D1B5288F4004CDA9B /* kfile.c in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

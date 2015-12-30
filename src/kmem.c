@@ -1,7 +1,7 @@
 #include "kmem.h"
 
 #include <stdio.h>
-#include <malloc.h>
+#include <stdlib.h>
 
 void * kmem_malloc(struct kGame * k, int sz, const char * tt, const char * file, int line, const char * func)
 {
